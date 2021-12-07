@@ -8,3 +8,9 @@
 .imgContainer{
     text-align: center;
 }
+
+@media (max-width:800px) {
+    .imgContainer{
+        display: none;
+    }
+}
