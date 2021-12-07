@@ -1,0 +1,26 @@
+
+section{
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 7px 10px 4px 1px rgba(0, 0, 0, 0.4);
+    max-width: 700px;
+    min-height: 100px;
+}
+ul{
+
+    padding: 0 0 50px 0;
+    list-style: none ;
+    background-color: rgba(0, 35, 102,0.04);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+@media (max-width:768px) {
+    section{
+        width: 80%;
+    }
+}

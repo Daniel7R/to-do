@@ -1,0 +1,33 @@
+.searcher{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    border:2px solid springgreen;
+    border-radius: 15px;
+    width: 35%;
+    margin:0 auto;
+    background-color: steelblue;
+
+}
+
+.searcher::placeholder{
+    color: springgreen;
+    font-weight: 700;
+}
+
+
+.searcher:focus-visible{
+    outline-color: springgreen;
+}
+
+.p-tag{
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .searcher{
+        width: 80%;
+    }
+}

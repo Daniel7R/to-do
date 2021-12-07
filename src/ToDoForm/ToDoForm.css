@@ -1,0 +1,82 @@
+form{
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightslategray;
+    padding:20px 10px 20px 10px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.formItem{
+    margin-bottom: 10px;
+}
+label{
+    color: rgba(255, 255, 255,0.9);
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+#toDo{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    margin:0 auto;
+    border: 1px solid transparent;
+    resize: none;
+    width: 90%;
+    outline: none;
+    background-color: rgba(32, 41, 45, 0.8);
+    color: white;
+
+}
+#toDo:focus-visible{
+    border:2px solid springgreen;
+    color: white;
+}
+
+#toDo::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.buttonContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 40%;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    border:2px solid transparent;   
+    color:rgba(0,0,32,0.7);
+    font-weight: 600;
+    transition: 1s border;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #fa4b4b;
+    transition: 1s background-color;
+}
+
+.delete:hover{
+    background-color: #e58787;
+    transition: 1s background-color;
+}
+
+.add{
+    background-color: #2bff6b;
+    transition: 1s background-color;
+    
+}
+.add:hover{
+    background-color: #a3ecb9;
+    transition: 1s background-color;
+}
+

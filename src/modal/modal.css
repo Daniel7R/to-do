@@ -1,0 +1,14 @@
+.backgroundModal{
+    background: rgba(32, 41, 40, 0.7);
+    position: fixed;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: -10px;
+    bottom:-10px;
+    left: -10px;
+    right: -10px;
+}
+

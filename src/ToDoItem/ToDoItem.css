@@ -1,0 +1,53 @@
+.ToDoItem{
+    background-color:lightslategray;
+    position: relative;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px 0 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ToDoItem-p{
+    margin: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.ToDoItem-p--complete{
+    text-decoration: line-through;
+    text-decoration-color: rgb(220, 10, 30) ;
+    text-decoration-thickness: 2px;
+}
+
+.Icon{
+    cursor: pointer;
+    height: 20px;
+}
+
+.Icon-Check{
+    position: absolute;
+    left: 10px;
+    opacity: 0.5;
+    color: springgreen;
+}
+
+.Icon-Check--active{
+    opacity: 1;
+}
+
+.Icon-Delete{
+    position: absolute;
+    right: 10px;
+    color: tomato;
+}
+
