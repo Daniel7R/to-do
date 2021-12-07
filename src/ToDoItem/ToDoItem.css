@@ -37,12 +37,12 @@
 .Icon-Check{
     position: absolute;
     left: 10px;
-    opacity: 0.5;
-    color: springgreen;
+    color: black;
+    
 }
 
 .Icon-Check--active{
-    opacity: 1;
+    color: springgreen;
 }
 
 .Icon-Delete{
